@@ -1,0 +1,1396 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gold;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.menu .box-menu{
+    border-radius: 10px;
+    width: 50%;
+    height: 60px;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.menu .box-menu ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu .box-menu ul li a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: gold;
+    box-shadow: 0px 0px 3px 0px gold;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    text-shadow: 1px 1px 2px rgb(136, 136, 136);
+    transition: all 0.3s;
+    background-color: aliceblue;
+}
+.menu .box-menu ul li a:hover{
+    background-color: antiquewhite;
+    transform: scale(1.1);
+}
+
+
+
+.box-invite{
+    border: 2px solid gold;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 15px;
+}
+.box-invite .invite{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.box-invite .invite h1{
+    text-shadow: 1px 1px 3px rgb(73, 73, 73);
+    position: absolute;
+    top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    color: gold;
+}
+.box-invite .invite h3{
+    text-shadow: 1px 1px 5px black;
+    font-size: 25px;
+    position: absolute;
+    top: 70px;
+    color: rgb(0, 0, 0);
+}
+.box-invite .invite h3 span{
+    display: block;
+    text-align: center;
+    margin-top: 6px;
+}
+.box-invite .invite button{
+    width: 150px;
+    height: 40px;
+    margin-top: 165px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    background-color: gold;
+    transition: transform 0.3s ease;
+    transition: all 0.3s;
+    box-shadow: 3px 3px 0px 1px goldenrod;
+}
+.box-invite .invite button:hover{
+    transform: scale(1.1);
+}
+
+
+
+.image::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    position: absolute;
+    bottom: 0;
+
+}
+.image{
+    margin-top: 10px;
+    height: 800px;
+    box-shadow: 1px 1px 3px 2px rgb(255, 255, 255);
+    background-image: url(12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;       
+    background-color: antiquewhite;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.image h1{
+    z-index: 1;
+    position: absolute;
+    top: 60%;
+    color: gold;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+}
+.image h3{
+    z-index: 1;
+    position: absolute;
+    top: 65%;
+    color: gold;
+}
+.image button{
+    z-index: 1;
+    margin-top: 580px;
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    background-color: gold;
+    transition: transform 0.3s ease;
+    transition: all 0.3s;
+    box-shadow: 3px 3px 0px 1px goldenrod;
+}
+.footer{
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    background: rgba(147, 147, 147, 0.094);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 100%;
+    height: 55px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer h4{
+    padding: 0px;
+    margin: 0%;
+    font-size: 15px;
+}
+.image h5{
+    padding: 0%;
+    margin: 0%;
+    font-size: 15px;
+}
+.image button:hover{
+    transform: scale(1.1);
+}
+.image .box-right{
+    z-index: 1;
+    width: 280px;
+    height: 130px;
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    background: rgba(168, 168, 168, 0.23);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image .box-right h2{
+    color: gold;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+}
+.image .box-left{
+    z-index: 1;
+    width: 280px;
+    height: 130px;
+    position: absolute;
+    top: 40%;
+    right: 7%;
+    background: rgba(168, 168, 168, 0.23);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.image .box-left h2{
+    color: gold;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+}
+
+
+
+
+
+.d1{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.d1 .box-img1{
+    width: 500px;
+    box-shadow: 0px 0px 8px 1px rgb(255, 255, 255);
+}
+.d1 .box-img1 img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.box-center{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width: 250px;
+    height: 70px;
+    border: 2px solid gold;
+    clip-path: polygon(10% 0, 10% 100%, 90% 100%, 90% 0%, 100% 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.center h2{
+    color: gold;
+    text-shadow: 1px 1px 2px rgb(138, 138, 138);
+    font-size: 25px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.day{
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid gold;
+    background-color: antiquewhite;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.box-day1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    position: relative;
+}
+.box-day1 h1{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+}
+#h1{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+}
+.box-day1 .day1{
+    width: 15%;
+    height: 30%;
+    background-color: rgb(218, 167, 201);
+    clip-path: polygon(0 0, 0 100%, 75% 100%, 100% 50%, 75% 0);
+} 
+.box-day1 .day-of-day1{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box-day1 .day-of-day1 .box1{
+    border: 2px solid gold;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(230, 200, 220);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.box-day1 .day-of-day1 .box1:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+#d1{
+    position: absolute;
+    top: 15px;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(245, 84, 84);
+}
+.box-day1 .day-of-day1 .box1 p{
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    font-size: 15px;
+    padding: 0 10px;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic-box{
+    margin-top: 30px;
+    width: 250px;
+    height: 70px;
+    border: 2px solid gold;
+    clip-path: polygon(10% 0, 10% 100%, 90% 100%, 90% 0%, 100% 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+}
+.pic-box h2{
+    color: gold;
+    text-shadow: 1px 1px 2px rgb(138, 138, 138);
+    font-size: 25px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.picture{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.picture .box-picture{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.picture .box-picture .photo{
+    width: 19.3%;
+    height: 300px;
+    box-shadow: 0px 0px 5px 1px rgb(255, 255, 255);
+}
+.picture .box-picture .photo img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+.daye{
+    margin-top: 30px;
+    height: 1000px;
+}
+.daye iframe{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+
+@media (min-width: 260px){
+    .menu .box-menu{
+        width: 100%;
+        height: 50px;
+        font-weight: 200;
+    }
+    .menu .box-menu ul li a{
+        padding: 5px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+
+    .box-invite .invite{
+        width: 100%;
+        height: 180px;
+    }
+    .box-invite .invite h1{
+        text-shadow: 1px 1px 3px rgb(255, 255, 255);
+        top: 15px;
+        font-size: 15px;
+    }
+    .box-invite .invite h3{
+        text-shadow: 1px 1px 2px black;
+        font-size: 17px;
+        top: 50px;
+        color: rgb(0, 0, 0);
+    }
+    .box-invite .invite button{
+        width: 100px;
+        height: 40px;
+        margin-top: 120px;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .image{
+        height: 300px;
+    }
+    .image h1{
+        top: 60%;
+        font-size: 11px;
+    }
+    .image h3{
+        top: 65%;
+        font-size: 12px;
+    }
+    .image button{
+        margin-top: 220px;
+        height: 30px;
+        width: 80px;
+    }
+    .footer{
+        height: 33px;
+        font-weight: 300;
+    }
+    .footer h4{
+        font-size: 8px;
+    }
+    .image h5{
+        font-size: 10px;
+    }
+    .image .box-right{
+        width: 120px;
+        height: 80px;
+        top: 35%;
+        left: 3%;
+    }
+    .image .box-right h2{
+        padding: 5px 0px;
+        margin: 0%;
+        font-size: 13px;
+    }
+    .image .box-left{
+        width: 120px;
+        height: 80px;
+        top: 35%;
+        right: 3%;
+    }
+    .image .box-left h2{
+        padding: 5px 0px;
+        margin: 0%;
+        font-size: 13px;
+    }
+
+
+    .d1{
+        margin-top: 10px;
+    }
+
+
+    
+    .center h2{
+        font-size: 20px;
+    }
+
+
+
+    .box-day1{
+        height:350px;
+        display: flex;
+        flex-direction: column;
+    }
+    #h1{
+        font-size: 20px;
+        padding: 0%;
+        margin: 0%;
+        top: 12px;
+        left: 10px;
+    }
+    .box-day1 .day1{
+        width: 25%;
+        height: 15%;
+    } 
+    .box-day1 .day-of-day1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .box-day1 .day-of-day1 .box1{
+        width: 100%;
+        height: 32%;;
+    }
+    .box-day1 .day-of-day1 .box1:hover{
+        cursor: pointer;
+        transform: scale(1.04);
+    }
+    #d1{
+        top: 10px;
+        left: 40%;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .box-day1 .day-of-day1 .box1 p{
+        top: 40px;
+        font-size: 12px;
+        padding: 0px 10px;
+    }
+
+
+
+
+
+    .picture .box-picture{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .picture .box-picture .photo{
+        width: 48.8%;
+        height: 300px;
+    }
+    .picture .box-picture .photo img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px){
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+   .menu .box-menu{
+        width: 80%;
+        height: 50px;
+        font-weight: 200;
+    }
+    .menu .box-menu ul li a{
+        padding: 5px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+
+    .box-invite .invite{
+        width: 100%;
+        height: 180px;
+    }
+    .box-invite .invite h1{
+        text-shadow: 1px 1px 3px rgb(255, 255, 255);
+        top: 15px;
+        font-size: 18px;
+    }
+    .box-invite .invite h3{
+        text-shadow: 1px 1px 2px black;
+        font-size: 17px;
+        top: 50px;
+        color: rgb(0, 0, 0);
+    }
+    .box-invite .invite button{
+        width: 100px;
+        height: 40px;
+        margin-top: 120px;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .image{
+        height: 500px;
+    }
+    .image h1{
+        top: 60%;
+        font-size: 20px;
+    }
+    .image h3{
+        top: 65%;
+        font-size: 18px;
+    }
+    .image button{
+        margin-top: 360px;
+        height: 40px;
+        width: 80px;
+    }
+    .footer{
+        height: 40px;
+        font-weight: 300;
+    }
+    .footer h4{
+        font-size: 10px;
+    }
+    .image h5{
+        font-size: 10px;
+    }
+    .image .box-right{
+        width: 180px;
+        height: 80px;
+        top: 35%;
+        left: 3%;
+    }
+    .image .box-right h2{
+        padding: 5px 0px;
+        margin: 0%;
+        font-size: 15px;
+    }
+    .image .box-left{
+        width: 180px;
+        height: 80px;
+        top: 35%;
+        right: 3%;
+    }
+    .image .box-left h2{
+        padding: 5px 0px;
+        margin: 0%;
+        font-size: 15px;
+    }
+
+
+    .d1{
+        margin-top: 10px;
+    }
+
+
+    
+    .center h2{
+        font-size: 20px;
+    }
+
+
+
+    .box-day1{
+        height:350px;
+        display: flex;
+        flex-direction: column;
+    }
+    #h1{
+        font-size: 20px;
+        padding: 0%;
+        margin: 0%;
+        top: 12px;
+        left: 10px;
+    }
+    .box-day1 .day1{
+        width: 15%;
+        height: 15%;
+    } 
+    .box-day1 .day-of-day1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .box-day1 .day-of-day1 .box1{
+        width: 100%;
+        height: 32%;;
+    }
+    .box-day1 .day-of-day1 .box1:hover{
+        cursor: pointer;
+        transform: scale(1.04);
+    }
+    #d1{
+        top: 10px;
+        left: 45%;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .box-day1 .day-of-day1 .box1 p{
+        top: 40px;
+        font-size: 12px;
+        padding: 0px 10px;
+    }
+
+
+
+
+
+    .picture .box-picture{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .picture .box-picture .photo{
+        width: 48%;
+        height: 400px;
+    }
+    .picture .box-picture .photo img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .menu .box-menu{
+        width: 60%;
+        height: 50px;
+        font-weight: 200;
+    }
+    .menu .box-menu ul li a{
+        padding: 5px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+
+    .box-invite .invite{
+        width: 100%;
+        height: 200px;
+    }
+    .box-invite .invite h1{
+        text-shadow: 1px 1px 3px rgb(255, 255, 255);
+        top: 16px;
+        font-size: 20px;
+    }
+    .box-invite .invite h3{
+        text-shadow: 1px 1px 2px black;
+        font-size: 18px;
+        top: 60px;
+        color: rgb(0, 0, 0);
+    }
+    .box-invite .invite button{
+        width: 100px;
+        height: 40px;
+        margin-top: 130px;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .image{
+        height: 600px;
+    }
+    .image h1{
+        top: 60%;
+        font-size: 25px;
+        font-weight: 550;
+    }
+    .image h3{
+        top: 65%;
+        font-size: 20px;
+    }
+    .image button{
+        margin-top: 430px;
+        height: 40px;
+        width: 80px;
+    }
+    .footer{
+        height: 40px;
+        font-weight: 300;
+    }
+    .footer h4{
+        font-size: 12px;
+    }
+    .image h5{
+        font-size: 12px;
+    }
+    .image .box-right{
+        width: 200px;
+        height: 100px;
+        top: 35%;
+        left: 3%;
+    }
+    .image .box-right h2{
+        padding: 5px 0px;
+        margin: 0%;
+        font-size: 18px;
+    }
+    .image .box-left{
+        width: 200px;
+        height: 100px;
+        top: 35%;
+        right: 3%;
+    }
+    .image .box-left h2{
+        padding: 5px 0px;
+        margin: 0%;
+        font-size: 18px;
+    }
+
+
+    .d1{
+        margin-top: 20px;
+    }
+    .d1 .box-img1{
+        width: 400px;
+    }
+
+
+    
+    .center h2{
+        font-size: 25px;
+    }
+
+
+    .day{
+        margin-top: 30px;
+        border-radius: 10px;
+        border: 2px solid gold;
+        background-color: antiquewhite;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .box-day1{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        position: relative;
+    }
+    .box-day1 h1{
+        position: absolute;
+        top: 15px;
+        left: 40px;
+        font-family: "Moulpali", sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        font-style: normal;
+    }
+    #h1{
+        top: 18px;
+        left: 10px;
+    }
+    .box-day1 .day1{
+        width: 10%;
+        height: 30%;
+        background-color: rgb(218, 167, 201);
+        clip-path: polygon(0 0, 0 100%, 75% 100%, 100% 50%, 75% 0);
+    } 
+    .box-day1 .day-of-day1{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .box-day1 .day-of-day1 .box1{
+        border: 2px solid gold;
+        width: 30%;
+        height: 100%;
+    }
+    #d1{
+        left: 12px;
+        top: 15px;
+        font-size: 18px;
+    }
+    .box-day1 .day-of-day1 .box1 p{
+        top: 40px;
+        font-size: 15px;
+    }
+
+
+
+
+
+    .picture .box-picture{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .picture .box-picture .photo{
+        width: 49%;
+        height: 500px;
+    }
+    .picture .box-picture .photo img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    *{
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gold;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.menu .box-menu{
+    border-radius: 10px;
+    width: 50%;
+    height: 60px;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.menu .box-menu ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu .box-menu ul li a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: gold;
+    box-shadow: 0px 0px 3px 0px gold;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    text-shadow: 1px 1px 2px rgb(136, 136, 136);
+    transition: all 0.3s;
+    background-color: aliceblue;
+}
+.menu .box-menu ul li a:hover{
+    background-color: antiquewhite;
+    transform: scale(1.1);
+}
+
+
+
+.box-invite{
+    border: 2px solid gold;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 15px;
+}
+.box-invite .invite{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.box-invite .invite h1{
+    text-shadow: 1px 1px 3px rgb(73, 73, 73);
+    position: absolute;
+    top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    color: gold;
+}
+.box-invite .invite h3{
+    text-shadow: 1px 1px 5px black;
+    font-size: 25px;
+    position: absolute;
+    top: 70px;
+    color: rgb(0, 0, 0);
+}
+.box-invite .invite h3 span{
+    display: block;
+    text-align: center;
+    margin-top: 6px;
+}
+.box-invite .invite button{
+    width: 150px;
+    height: 40px;
+    margin-top: 165px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    background-color: gold;
+    transition: transform 0.3s ease;
+    transition: all 0.3s;
+    box-shadow: 3px 3px 0px 1px goldenrod;
+}
+.box-invite .invite button:hover{
+    transform: scale(1.1);
+}
+
+
+
+.image::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    position: absolute;
+    bottom: 0;
+
+}
+.image{
+    margin-top: 10px;
+    height: 800px;
+    box-shadow: 1px 1px 3px 2px rgb(255, 255, 255);
+    background-image: url(12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;       
+    background-color: antiquewhite;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.image h1{
+    z-index: 1;
+    position: absolute;
+    top: 60%;
+    color: gold;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+}
+.image h3{
+    z-index: 1;
+    position: absolute;
+    top: 65%;
+    color: gold;
+}
+.image button{
+    z-index: 1;
+    margin-top: 580px;
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    background-color: gold;
+    transition: transform 0.3s ease;
+    transition: all 0.3s;
+    box-shadow: 3px 3px 0px 1px goldenrod;
+}
+.footer{
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    background: rgba(147, 147, 147, 0.094);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 100%;
+    height: 55px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer h4{
+    padding: 0px;
+    margin: 0%;
+    font-size: 15px;
+}
+.image h5{
+    padding: 0%;
+    margin: 0%;
+    font-size: 15px;
+}
+.image button:hover{
+    transform: scale(1.1);
+}
+.image .box-right{
+    z-index: 1;
+    width: 280px;
+    height: 130px;
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    background: rgba(168, 168, 168, 0.23);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image .box-right h2{
+    color: gold;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+}
+.image .box-left{
+    z-index: 1;
+    width: 280px;
+    height: 130px;
+    position: absolute;
+    top: 40%;
+    right: 7%;
+    background: rgba(168, 168, 168, 0.23);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.image .box-left h2{
+    color: gold;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+}
+
+
+
+
+
+.d1{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.d1 .box-img1{
+    width: 500px;
+    box-shadow: 0px 0px 8px 1px rgb(255, 255, 255);
+}
+.d1 .box-img1 img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.box-center{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width: 250px;
+    height: 70px;
+    border: 2px solid gold;
+    clip-path: polygon(10% 0, 10% 100%, 90% 100%, 90% 0%, 100% 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.center h2{
+    color: gold;
+    text-shadow: 1px 1px 2px rgb(138, 138, 138);
+    font-size: 25px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.day{
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid gold;
+    background-color: antiquewhite;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.box-day1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    position: relative;
+}
+.box-day1 h1{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+}
+#h1{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+}
+.box-day1 .day1{
+    width: 15%;
+    height: 30%;
+    background-color: rgb(218, 167, 201);
+    clip-path: polygon(0 0, 0 100%, 75% 100%, 100% 50%, 75% 0);
+} 
+.box-day1 .day-of-day1{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box-day1 .day-of-day1 .box1{
+    border: 2px solid gold;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(230, 200, 220);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.box-day1 .day-of-day1 .box1:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+#d1{
+    position: absolute;
+    top: 15px;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(245, 84, 84);
+}
+.box-day1 .day-of-day1 .box1 p{
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    font-size: 15px;
+    padding: 0 10px;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic-box{
+    margin-top: 30px;
+    width: 250px;
+    height: 70px;
+    border: 2px solid gold;
+    clip-path: polygon(10% 0, 10% 100%, 90% 100%, 90% 0%, 100% 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Moulpali", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+}
+.pic-box h2{
+    color: gold;
+    text-shadow: 1px 1px 2px rgb(138, 138, 138);
+    font-size: 25px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.picture{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.picture .box-picture{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.picture .box-picture .photo{
+    width: 19.3%;
+    height: 300px;
+    box-shadow: 0px 0px 5px 1px rgb(255, 255, 255);
+}
+.picture .box-picture .photo img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+.daye{
+    margin-top: 30px;
+    height: 1000px;
+}
+.daye iframe{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 50%;
+}
+}
